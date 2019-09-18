@@ -24,12 +24,13 @@ import org.springframework.context.annotation.ComponentScan;
 
 /**
  * @author conan (kly824968443@gmail.com)
- * @create 2019/9/17
+ * @create 2019/9/18
+ * @description
  */
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @EnableErrorHandler({ErrorStatusCodes.class})
 @EnableEurekaClient
-@ComponentScan(basePackages={"com.tdoer.exception"})
+@ComponentScan(basePackages={"com.tdoer.exception","com.tdoer.springboot.log"})
 public class Application {
 
     public static void main(String[] args) {
