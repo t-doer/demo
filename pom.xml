@@ -16,6 +16,9 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>tdoer-demo-eureka</module>
+        <module>tdoer-demo-provider</module>
+        <module>tdoer-demo-consumer</module>
         <module>tdoer-demo-exception</module>
         <module>tdoer-demo-zipkin-1</module>
         <module>tdoer-demo-zipkin-2</module>
